@@ -49,7 +49,7 @@ Enter 4 to Exit \n'''))
                         print(f"Your Balance is {Balance}")
 
                     elif inp == 2:  # To Widrawl Money
-                        wid_mny = int(input(f"Enter the amount current available amount is {Balance}:"))
+                        wid_mny = int(input(f"Enter the amount to widrawl (current available amount is {Balance}):"))
                         if wid_mny > Balance:
                             print("Your Account doesn't have enough money ")
 
@@ -67,7 +67,7 @@ Enter 4 to Exit \n'''))
                             print(f"Your Money is Widrawled and Available balance is {res} ")
 
                     elif inp == 3:  # To deposit Money
-                        dip_mny = int(input(f"Enter the amount current available amount is {Balance} :"))
+                        dip_mny = int(input(f"Enter the amount to diposit (current available amount is {Balance}) :"))
                         if dip_mny > 100000:
                             print("money Deposit Limit exceeded , You cannot deposit more than 100000")
 
